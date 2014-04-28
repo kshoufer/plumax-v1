@@ -1,0 +1,101 @@
+/* line 22, ../components/sass/_base.scss */
+body {
+  background: #eee;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 12, ../../../Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.1.1/sass/susy/output/support/_clearfix.scss */
+  body::after {
+    content: " ";
+    display: block;
+    clear: both; }
+
+/* line 27, ../components/sass/_base.scss */
+main {
+  color: #006600;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%; }
+
+/* line 32, ../components/sass/_base.scss */
+a {
+  color: #2980b9;
+  text-decoration: none; }
+
+/* line 37, ../components/sass/_base.scss */
+aside {
+  color: #0000cc;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%; }
+
+/* line 42, ../components/sass/_base.scss */
+aside ul {
+  padding: 10%; }
+  /* line 45, ../components/sass/_base.scss */
+  aside ul li {
+    list-style: none;
+    margin: 0; }
+    /* line 49, ../components/sass/_base.scss */
+    aside ul li a {
+      display: block;
+      padding: 10px 5%;
+      border-bottom: solid 1px #95a5a6; }
+
+@media (min-width: 600px) {
+  /* line 59, ../components/sass/_base.scss */
+  main {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 66.66667%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%; }
+
+  /* line 63, ../components/sass/_base.scss */
+  aside {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 33.33333%;
+    float: right;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%; } }
+@media (min-width: 1200px) {
+  /* line 71, ../components/sass/_base.scss */
+  main {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 87.5%;
+    float: left;
+    padding-left: 0.41667%;
+    padding-right: 0.41667%; }
+    /* line 73, ../components/sass/_base.scss */
+    main .col1, main .col2, main .col3 {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 33.33333%;
+      float: left;
+      padding-left: 1.66667%;
+      padding-right: 1.66667%; }
+
+  /* line 78, ../components/sass/_base.scss */
+  aside {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 12.5%;
+    float: left;
+    padding-left: 0.41667%;
+    padding-right: 0.41667%; } }

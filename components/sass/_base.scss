@@ -1,0 +1,81 @@
+@import 'susy';
+@import 'breakpoint';
+
+$susy: (
+	columns: 12,
+	gutters: 1/4,
+	math: fluid,
+	output: float,
+	gutter-position: inside,
+);
+
+$wide: (
+	columns: 24,
+	gutters: 1/4,
+	math: fluid,
+	output: float,
+	gutter-position: inside,
+);
+
+//@include layout($wide);
+
+body {
+	background: #eee;
+	@include container(80%);
+}//body
+
+main {
+	color: darken(#00ff00, 30);
+	@include span(12);
+}
+
+a {
+	color: #2980b9;
+	text-decoration: none;
+}//a
+
+aside {
+	color: darken(#0000ff, 10);
+	@include span(12);
+}
+
+aside ul {
+	padding: 10%;
+
+	li {
+		list-style: none;
+		margin: 0;
+	
+		a {
+			display: block;
+			padding: 10px 5%;
+			border-bottom: solid 1px #95a5a6;
+		}//a
+	}//li
+}//aside ul
+
+
+@include breakpoint(600px) {
+	main {
+		@include span(8);
+	}
+
+	aside {
+		@include span(4 at 9);
+	}
+}//breakpoint 600
+
+@include breakpoint(1200px) {
+	@include layout(24);
+
+	main {
+		@include span(21);
+		.col1, .col2, .col3 {
+			@include span(2 of 6);
+		}
+	}
+
+	aside {
+		@include span(3 at 21);
+	}
+}//breakpoint 1200
