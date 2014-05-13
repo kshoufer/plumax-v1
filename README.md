@@ -11,3 +11,11 @@ test http://yahoo.com ~~Mistaken text.~~
 In the words of Abraham Lincoln:
 
 > Pardon my french
+
+* Item1
+* Item2
+* Item3
+
+- Item4
+- Item5
+- Item6
